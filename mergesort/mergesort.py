@@ -11,7 +11,6 @@ def mergeSort(numbers):
   while len(firstHalf) > 0 and len(secondHalf) > 0:
     if firstHalf[0] < secondHalf[0]:
       numbers.append( firstHalf.pop(0) )
-
     else:
       numbers.append(secondHalf.pop(0))
 
